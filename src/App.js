@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { TextField } from "@mui/material";
+import "./App.css";
+import { Button } from "@mui/material";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <form>
+        <TextField
+          id="outlined-basic"
+          variant="outlined"
+          defaultValue="Enter a city..."
+        />
+        <Button variant="contained" color="secondary">
+          Search
+        </Button>
+      </form>
+      <footer>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This project was coded by Katrin Kanape and is open-sourced on Github
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </footer>
     </div>
   );
 }
