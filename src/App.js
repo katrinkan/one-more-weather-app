@@ -1,23 +1,17 @@
-import { TextField } from "@mui/material";
 import "./App.css";
-import { Button } from "@mui/material";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <form>
-        <TextField
-          id="outlined-basic"
-          variant="outlined"
-          defaultValue="Enter a city..."
-        />
-        <Button variant="contained" color="secondary">
-          Search
-        </Button>
-      </form>
+      <Weather defaultCity="Barcelona" />
+
       <footer>
         <p>
-          This project was coded by Katrin Kanape and is open-sourced on Github
+          This project was coded by Katrin Kanape and is{" "}
+          <a href="https://github.com/katrinkan/one-more-weather-app">
+            open-sourced on Github
+          </a>
         </p>
       </footer>
     </div>

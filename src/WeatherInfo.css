@@ -1,0 +1,14 @@
+.WeatherInfo .temperature {
+  font-weight: 400;
+  color: rgb(33, 33, 33);
+  font-size: 54px;
+  line-height: 64px;
+}
+.WeatherInfo .unit {
+  font-size: 16px;
+  color: rgb(33, 33, 33);
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}

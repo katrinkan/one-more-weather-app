@@ -1,1 +1,10 @@
-
+.App {
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+  color: rgb(135, 135, 135);
+  margin: 30px auto;
+}
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
+}
